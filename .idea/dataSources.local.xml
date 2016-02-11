@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails showtime: development" uuid="5d8b6815-95be-4e83-9f4a-e6016581b8ba">
+      <schema-pattern>showtime_development.*</schema-pattern>
+      <default-schemas>showtime_development.*</default-schemas>
+    </data-source>
+    <data-source name="Rails showtime: test" uuid="e935e20f-a070-4701-b6a3-34e65556f9c4">
+      <schema-pattern>showtime_test.*</schema-pattern>
+      <default-schemas>showtime_test.*</default-schemas>
+    </data-source>
+    <data-source name="Rails showtime: production" uuid="badc6960-a417-4e64-9a97-6b6f1484ae30">
+      <first-sync>true</first-sync>
+      <user-name>showtime</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff9dfe2dfe5dffddffedfe3dfe7dfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>
