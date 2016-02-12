@@ -43,7 +43,7 @@ userBoxStyle = {
 }
 
 imageStyle = {
-  height: '370px'
+  height: '90%'
   width: '100%'
   position: 'relative'
   border: '1px solid'
@@ -72,8 +72,10 @@ detailStyle = {
         className: 'user_info'
         style: detailStyle
         React.DOM.div
-        @props.user.name
+          style: {width: '100%', float: 'left'}
+          @props.user.name
         React.DOM.div
-        @props.user.phone
+          style: {width: '100%', float: 'left'}
+          @props.user.phone
 #        React.DOM.h2
 #          amountFormat(@props.user.price_incall_a_session)
